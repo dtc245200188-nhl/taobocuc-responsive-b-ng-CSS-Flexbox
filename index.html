@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bố cục Responsive với CSS Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h1>Trang tin MyBlog</h1>
+            <p>Bố cục responsive bằng CSS Flexbox</p>
+        </header>
+
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Công nghệ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <div class="main-container">
+            <main class="main">
+                <h2>Nội dung chính</h2>
+                <div class="articles">
+                    <article class="card">
+                        <div class="card-thumb"></div>
+                        <h3>Bài viết thứ nhất</h3>
+                        <p>Mô tả ngắn gọn cho bài viết thứ nhất, hiển thị trong khu vực nội dung chính.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-thumb"></div>
+                        <h3>Bài viết thứ hai</h3>
+                        <p>Mô tả ngắn gọn cho bài viết thứ hai, hiển thị trong khu vực nội dung chính.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-thumb"></div>
+                        <h3>Bài viết thứ ba</h3>
+                        <p>Mô tả ngắn gọn cho bài viết thứ ba, hiển thị trong khu vực nội dung chính.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-thumb"></div>
+                        <h3>Bài viết thứ tư</h3>
+                        <p>Mô tả ngắn gọn cho bài viết thứ tư, hiển thị trong khu vực nội dung chính.</p>
+                    </article>
+                </div>
+            </main>
+
+            <aside class="sidebar">
+                <section class="widget">
+                    <h3>Tin mới nhất</h3>
+                    <ul>
+                        <li>Xu hướng thiết kế web năm nay</li>
+                        <li>Cách học CSS Flexbox hiệu quả</li>
+                        <li>Mẹo tối ưu giao diện mobile</li>
+                        <li>Giới thiệu Flexbox và Grid</li>
+                    </ul>
+                </section>
+                <section class="widget ad">
+                    <h3>Quảng cáo</h3>
+                    <p>Vị trí đặt quảng cáo hoặc nội dung phụ</p>
+                </section>
+            </aside>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 MyBlog. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
